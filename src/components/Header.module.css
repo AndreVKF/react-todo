@@ -1,0 +1,27 @@
+.headerContainer {
+  background-color: var(--gray-700);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 4.5rem 0 5rem;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--blue-300);
+}
+
+.headerContent svg {
+  line-height: 0;
+}
+
+.headerContainer span > span {
+  color: var(--purple-300);
+}
